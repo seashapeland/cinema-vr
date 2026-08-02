@@ -51,7 +51,7 @@ VELVET 07 是一个完全运行在浏览器中的第一人称 3D 电影院。它
 ### 安装与启动
 
 ```bash
-git clone git@github.com:seashapeland/cinema-vr.git
+git clone https://github.com/seashapeland/cinema-vr.git
 cd cinema-vr
 npm install
 npm run dev
