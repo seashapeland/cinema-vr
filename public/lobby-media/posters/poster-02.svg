@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1200" viewBox="0 0 800 1200">
+  <defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#3b131b"/><stop offset=".6" stop-color="#13080c"/><stop offset="1" stop-color="#050506"/></linearGradient></defs>
+  <rect width="800" height="1200" fill="url(#g)"/><g fill="none" stroke="#d68c56" opacity=".7"><circle cx="400" cy="390" r="245" stroke-width="5"/><circle cx="400" cy="390" r="185" stroke-width="2"/><path d="M400 90V690M100 390H700"/></g><path d="M260 690Q400 480 540 690L610 960H190Z" fill="#09090c"/>
+  <text x="400" y="970" text-anchor="middle" fill="#f3e6d6" font-family="Georgia" font-size="68">MIDNIGHT SIGNAL</text><text x="400" y="1030" text-anchor="middle" fill="#c88856" font-family="Arial" font-size="22" letter-spacing="6">SOMEONE IS LISTENING</text>
+</svg>

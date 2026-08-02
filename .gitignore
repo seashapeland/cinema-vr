@@ -1,0 +1,29 @@
+# Dependencies and generated output
+node_modules/
+dist/
+output/
+.playwright-cli/
+*.log
+
+# Local editor and operating-system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Keep trailer masters locally; publish only the optimized copies.
+/public/lobby-media/trailers/*.mp4
+/public/lobby-media/trailers/*.webm
+/public/lobby-media/trailers/*.mov
+/public/lobby-media/trailers/*.m4v
+/public/lobby-media/trailers/*.mkv
+
+# Superseded, full-resolution fallback image.
+/public/lobby-media/screens/game-racer.png

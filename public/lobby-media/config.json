@@ -1,0 +1,105 @@
+{
+  "cinemaName": "VELVET 07",
+  "images": {
+    "gameScreen": "/lobby-media/screens/your-name-gameplay.png",
+    "auditoriumRear": ""
+  },
+  "labels": {
+    "plaza": {
+      "title": "{cinemaName} PLAZA",
+      "subtitle": "CULTURE  /  CINEMA  /  NIGHT"
+    },
+    "lounge": {
+      "title": "{cinemaName} LOUNGE",
+      "subtitle": "PREMIUM CINEMA ANNEX"
+    },
+    "gallery": {
+      "title": "NIGHT GALLERY",
+      "subtitle": "{cinemaName} PLAZA  /  OPEN LATE"
+    },
+    "exteriorHall": {
+      "title": "AUDITORIUM 01",
+      "subtitle": "IMAX LASER  /  {cinemaName}"
+    },
+    "concessions": {
+      "title": "CONCESSIONS",
+      "subtitle": "FRESH POPCORN  /  DRINKS"
+    },
+    "boxOffice": {
+      "title": "BOX OFFICE",
+      "subtitle": "AUDITORIUM 01"
+    },
+    "scaleModel": {
+      "title": "AUDITORIUM 01",
+      "subtitle": "SCALE MODEL"
+    },
+    "ticketCheck": {
+      "title": "TICKET CHECK",
+      "subtitle": "AUDITORIUM 01  /  OPEN LANES"
+    },
+    "soundlockHall": {
+      "title": "AUDITORIUM 01",
+      "subtitle": "TURN RIGHT  /  IMAX LASER"
+    }
+  },
+  "marquee": {
+    "brand": "VELVET",
+    "number": "07",
+    "premiere": "PREMIERE TONIGHT",
+    "format": "IMAX LASER",
+    "auditorium": "AUDITORIUM 01",
+    "time": "19:30",
+    "gallery": "NIGHT GALLERY",
+    "location": "CITY PLAZA  /  LEVEL 01",
+    "mark": "V"
+  },
+  "uiText": {
+    "muralTitle": "THE DREAMING MACHINE",
+    "muralSubtitle": "LIGHT  ·  SHADOW  ·  MEMORY",
+    "screenBrand": "{cinemaName}  ·  PRIVATE AUDITORIUM",
+    "screenEnter": "单击进入影厅",
+    "screenWaiting": "等待片源",
+    "screenPaused": "放映暂停",
+    "screenDemoTitle": "THE LAST LIGHT",
+    "screenControls": "WASD 移动  ·  鼠标环顾  ·  E 交互  ·  R 遥控器",
+    "screenSourceHint": "请使用银幕下方的传输机，或按 R 抬起遥控器",
+    "terminalTitle": "SOURCE TRANSFER",
+    "terminalConnected": "片源已连接",
+    "terminalConnectPrompt": "E · 连接本地影片",
+    "terminalPlaying": "PLAYING",
+    "terminalPaused": "PAUSED",
+    "terminalPrivate": "LOCAL LINK · PRIVATE",
+    "remoteBrand": "{cinemaName}",
+    "remoteHouseLight": "HOUSE LIGHT",
+    "remoteOn": "ON",
+    "remoteOff": "OFF",
+    "remotePlayState": "PLAY",
+    "remotePauseState": "PAUSE",
+    "remoteNoSource": "NO SOURCE",
+    "remoteRaisedHint": "R · LOWER   H · HIDE",
+    "remoteLoweredHint": "R · RAISE   H · HIDE",
+    "remoteButtonLights": "LIGHT",
+    "remoteButtonPlay": "PLAY",
+    "remoteButtonSource": "SOURCE",
+    "remoteButtonStop": "STOP"
+  },
+  "posters": [
+    "/lobby-media/posters/海报1.jpg",
+    "/lobby-media/posters/海报2.webp",
+    "/lobby-media/posters/海报3.jpg",
+    "/lobby-media/posters/海报4.jpg"
+  ],
+  "trailers": [
+    "/lobby-media/trailers/optimized/小屏视频1.mp4",
+    "/lobby-media/trailers/optimized/小屏视频2.mp4",
+    "/lobby-media/trailers/optimized/小屏视频3.mp4",
+    "/lobby-media/trailers/optimized/小屏视频4.mp4",
+    "/lobby-media/trailers/optimized/大屏视频.mp4"
+  ],
+  "music": "/lobby-media/music/背景音乐.m4a",
+  "musicVolume": 0.36,
+  "standees": {
+    "front": "/lobby-media/standees/站立海报正面.webp",
+    "back": "/lobby-media/standees/站立海报反面.jpg"
+  }
+}

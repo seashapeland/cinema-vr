@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1200" viewBox="0 0 800 1200">
+  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#17111f"/><stop offset=".55" stop-color="#4a335b"/><stop offset="1" stop-color="#08070a"/></linearGradient></defs>
+  <rect width="800" height="1200" fill="url(#g)"/><g fill="none" stroke="#e5bc7e"><path d="M100 720C220 260 580 260 700 720" stroke-width="10"/><path d="M175 720C270 380 530 380 625 720" stroke-width="3" opacity=".65"/></g><rect x="270" y="340" width="260" height="420" rx="130" fill="#0b0a0f"/><circle cx="400" cy="480" r="52" fill="#c18c64"/>
+  <text x="400" y="960" text-anchor="middle" fill="#f0e6dd" font-family="Georgia" font-size="76">THE NINTH DOOR</text><text x="400" y="1020" text-anchor="middle" fill="#b795c8" font-family="Arial" font-size="21" letter-spacing="6">NOT EVERY EXIT LEADS HOME</text>
+</svg>

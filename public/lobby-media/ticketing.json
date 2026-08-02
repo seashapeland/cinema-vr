@@ -1,0 +1,51 @@
+{
+  "cinemaName": "VELVET 07 CINEMA",
+  "currency": "¥",
+  "movies": [
+    {
+      "id": "your-name",
+      "name": "你的名字",
+      "poster": "/lobby-media/standees/站立海报正面.webp",
+      "showtime": "10:00",
+      "hall": "01",
+      "seat": "E08",
+      "price": "68.00"
+    },
+    {
+      "id": "weathering-with-you",
+      "name": "天气之子",
+      "poster": "/lobby-media/posters/海报1.jpg",
+      "showtime": "12:30",
+      "hall": "01",
+      "seat": "F10",
+      "price": "68.00"
+    },
+    {
+      "id": "suzume",
+      "name": "铃芽之旅",
+      "poster": "/lobby-media/posters/海报3.jpg",
+      "showtime": "15:10",
+      "hall": "01",
+      "seat": "G12",
+      "price": "78.00"
+    },
+    {
+      "id": "five-centimeters-per-second",
+      "name": "秒速5厘米",
+      "poster": "/lobby-media/posters/海报4.jpg",
+      "showtime": "17:50",
+      "hall": "01",
+      "seat": "E06",
+      "price": "58.00"
+    },
+    {
+      "id": "the-garden-of-words",
+      "name": "言叶之庭",
+      "poster": "/lobby-media/posters/海报2.webp",
+      "showtime": "19:40",
+      "hall": "01",
+      "seat": "F08",
+      "price": "58.00"
+    }
+  ]
+}
