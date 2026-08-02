@@ -74,6 +74,20 @@ npm run preview
 
 构建结果位于 `dist/`。部署时应把该目录作为站点根目录；项目媒体使用 `/lobby-media/...` 绝对路径，因此默认适合域名根路径部署。如果部署到某个子路径，请同时调整 Vite 的 `base` 和配置文件中的媒体 URL。
 
+生产构建结束后会自动运行 `scripts/prepare-dist.mjs`：它只清理生成目录中由 Vite 复制进去的本地预告母版与废弃大图，保留 `trailers/optimized/`。因此母版可以继续留在本机 `public` 目录用于重新压缩，但不会意外进入静态部署产物。
+
+### Cloudflare Pages 直接部署
+
+先完成一次 Wrangler 登录，然后构建并部署：
+
+```bash
+npx wrangler login
+npm run build
+npx wrangler pages deploy dist --project-name cinema-vr --branch main
+```
+
+如需使用其他项目名，将 `cinema-vr` 换成你的 Cloudflare Pages 项目名。Pages 的单文件上限为 25 MiB；`postbuild` 清理和 `optimized` 预告分级会确保当前主题满足该限制。项目沿用 Cloudflare Pages 的默认静态资源缓存与 ETag 行为，没有为配置 JSON 添加长期浏览器缓存，避免换主题后仍读到旧配置。
+
 ## 操作说明
 
 | 操作 | 按键或方式 | 说明 |
